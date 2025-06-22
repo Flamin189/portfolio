@@ -20,7 +20,6 @@ const Projects = () => {
             <span>CSS</span>
             <span>JavaScript</span>
             <span>Leaflet API</span>
-            <span>Java</span>
             <span>Spring Boot</span>
             <span>MySQL</span>
             <span>Google Maps API</span>
