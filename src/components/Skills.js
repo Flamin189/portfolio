@@ -8,14 +8,9 @@ const skills = [
   { name: 'CSS', level: 65 },
   { name: 'JavaScript', level: 65 },
   { name: 'React.js', level: 65 },
-  { name: 'Node.js', level: 50 },
   { name: 'Spring Boot', level: 65 },
   { name: 'MySQL', level: 80 },
-  { name: 'MongoDB', level: 50 },
-  { name: 'Git & GitHub', level: 85 },
-  { name: 'Postman', level: 75 },
-  { name: 'VS Code', level: 80 },
-  { name: 'Figma', level: 65 },];
+  { name: 'Figma', level: 65 }];
 
 const Skills = () => {
   const [visible, setVisible] = useState(false);
