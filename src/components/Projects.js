@@ -4,67 +4,101 @@ import React from 'react';
 const Projects = () => {
   return (
     <section id="projects" className="section">
-      <h2 className="section-title">Projects</h2>
+      <h2 className="section-title">Featured Projects</h2>
 
-      {/* Project: College Bus Tracking System */}
+      {/* Project: AI-Powered Sales Forecasting Platform */}
       <div className="project-card">
-        <h3>🚌 SAFARI </h3>
+        <h3>📊 AI-Powered Sales Forecasting Platform</h3>
         <p className="project-description">
-          A real-time web application that helps students and admins track college buses live on an interactive map.
+          An intelligent platform that predicts sales trends and inventory optimization using machine learning models trained on historical weather and sales data.
         </p>
 
         <div className="project-subsection">
           <h4>🔧 Tech Stack</h4>
           <div className="tech-tags">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>Leaflet API</span>
-            <span>Spring Boot</span>
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Scikit-learn</span>
+            <span>Matplotlib</span>
+            <span>Seaborn</span>
             <span>MySQL</span>
-            <span>Google Maps API</span>
           </div>
         </div>
 
         <div className="project-subsection">
           <h4>🧠 Key Features</h4>
           <ul>
-            <li>🔐 Separate login for Admin and Users</li>
-            <li>🗺️ Live route display with bus position and stops</li>
-            <li>📍 User location marker with “You are here” popup</li>
-            <li>🛠️ Admin control to add/remove buses and routes</li>
-            <li>🔔 Proximity alerts and ETA calculation</li>
-            <li>🤖 Chatbot for live assistance</li>
+            <li>📈 ETL pipelines for preprocessing historical and real-time weather data</li>
+            <li>🔎 Random Forest regression for rainfall prediction</li>
+            <li>📊 Logistic Regression for severity classification</li>
+            <li>📉 Performance dashboards and automated alerts</li>
+            <li>💾 Data warehouse in MySQL for analytics</li>
           </ul>
         </div>
       </div>
 
-      {/* Project: Blockbuster */}
+      {/* Project: AI-Powered Cloudburst Prediction System */}
       <div className="project-card">
-        <h3>🎬 BLOCKBUSTER </h3>
+        <h3>⚡ AI-Powered Cloudburst Prediction System</h3>
         <p className="project-description">
-          A full-stack streaming platform clone where users can explore, preview, and interact with curated movie content.
+          A machine learning solution that predicts extreme rainfall events and enables timely decision-making with automated alerts for risk mitigation.
         </p>
 
         <div className="project-subsection">
           <h4>🔧 Tech Stack</h4>
           <div className="tech-tags">
-            <span>React.js</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>Spring Boot</span>
-            <span>MySQL</span>
-            <span>YouTube Data API v3</span>
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Matplotlib</span>
+            <span>Seaborn</span>
+            <span>Scikit-learn</span>
           </div>
         </div>
 
         <div className="project-subsection">
           <h4>🧠 Key Features</h4>
           <ul>
-            <li>🎞️ Movie catalog (Trending, Action, Originals, etc.)</li>
-            <li>🔍 Search with live filtering</li>
-            <li>📽️ Embedded YouTube trailers and public domain films using the YouTube iFrame Player API</li>
-            <li>🔐 User authentication (Sign In/Sign Out)</li>
+            <li>🔄 Designed ETL pipelines for retail sales data cleaning and transformation</li>
+            <li>⚙️ Optimized data preparation and advanced feature engineering</li>
+            <li>📊 Trend analysis reports and stakeholder dashboards</li>
+            <li>🔍 Extensive debugging and model tuning</li>
+            <li>🚨 Automated alerts for predicted extreme rainfall events</li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Project: SAFARI Bus Tracking Application */}
+      <div className="project-card">
+        <h3>🚌 SAFARI – Bus Tracking Application</h3>
+        <p className="project-description">
+          A full-stack real-time bus tracking system with hardware integration, enabling live GPS-based location updates and proximity alerts for users.
+        </p>
+
+        <div className="project-subsection">
+          <h4>🔧 Tech Stack</h4>
+          <div className="tech-tags">
+            <span>Spring Boot</span>
+            <span>React.js</span>
+            <span>Leaflet.js</span>
+            <span>MySQL</span>
+            <span>WebSockets</span>
+            <span>Arduino</span>
+            <span>GSM & GPS Modules</span>
+          </div>
+        </div>
+
+        <div className="project-subsection">
+          <h4>🧠 Key Features</h4>
+          <ul>
+            <li>🏗️ Full-stack architecture with Spring Boot backend and React.js frontend</li>
+            <li>🗺️ Interactive Leaflet.js maps with live bus routes, stops, and ETA</li>
+            <li>⚡ WebSocket communication for real-time location updates without page reloads</li>
+            <li>📍 Proximity alerts using Leaflet's distanceTo() function (1 km radius)</li>
+            <li>🔒 Secure user authentication and role-based access (Admin/User)</li>
+            <li>🔌 Arduino integration with GSM & GPS modules for live coordinates</li>
+            <li>💾 Robust MySQL schema for credentials, routes, and tracking data</li>
           </ul>
         </div>
       </div>

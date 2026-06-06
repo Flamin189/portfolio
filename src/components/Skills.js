@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import './Skills.css';
 
-const skills = [
-  { name: 'Python', level: 75 },
-  { name: 'Java', level: 70 },
-  { name: 'HTML', level: 70 },
-  { name: 'CSS', level: 65 },
-  { name: 'JavaScript', level: 65 },
-  { name: 'React.js', level: 65 },
-  { name: 'Spring Boot', level: 65 },
-  { name: 'MySQL', level: 80 },
-  { name: 'Figma', level: 65 }];
+const technicalSkills = [
+  { name: 'Python', level: 85 },
+  { name: 'Java', level: 80 },
+  { name: 'JavaScript', level: 80 },
+  { name: 'MySQL', level: 85 },
+  { name: 'HTML', level: 85 },
+  { name: 'CSS', level: 80 },
+  { name: 'React.js', level: 80 },
+  { name: 'Spring Boot', level: 80 },
+];
 
 const Skills = () => {
   const [visible, setVisible] = useState(false);
@@ -21,9 +21,10 @@ const Skills = () => {
 
   return (
     <section id="skills" className="section">
-      <h2>Skillset</h2>
+      <h2>Skills</h2>
+      
       <div className="skills-container">
-        {skills.map((skill) => (
+        {technicalSkills.map((skill) => (
           <div key={skill.name} className="skill-bar">
             <label>{skill.name}</label>
             <div className="progress-wrapper">

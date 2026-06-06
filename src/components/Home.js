@@ -20,9 +20,20 @@ const Home = () => {
   }}
 />
       <p>
-Full Stack Developer | Lifelong Learner | Tech Enthusiast</p>
-
-        <p>I'm a passionate Full Stack Developer with a strong foundation in both frontend and backend technologies. I enjoy transforming ideas into real-world web applications using modern frameworks . I’m currently focused on building scalable, user-friendly applications and continuously improving my skills through projects and learning. I continuously seek opportunities to sharpen my skills.Apart from tech, I believe in collaboration, clear communication, and staying curious. I'm open to internship, freelance, or collaboration opportunities where I can learn, grow, and contribute meaningfully.</p>
+        <strong>Full Stack Developer | Problem Solver | Tech Enthusiast</strong>
+      </p>
+      <p style={{ marginBottom: '10px', fontSize: '0.95em', color: '#fff' }}>
+        📍 Chennai, India | ☎️ +91 8015373067 | 📧 flamin2004@gmail.com
+      </p>
+      <p>
+        B.E in Computer Science & Engineering from St. Joseph's College of Engineering (CGPA: 8.3)
+      </p>
+      <p>
+        I'm a passionate Full Stack Developer with expertise in building scalable, user-friendly applications using modern technologies including React, Spring Boot, Python, and MySQL. With 1800+ coding problems solved across LeetCode, GeeksforGeeks, and Skillrack, I have strong foundations in Data Structures, Algorithms, and Object-Oriented Programming.
+      </p>
+      <p>
+        I'm open to internship, freelance, or collaboration opportunities where I can apply my technical skills, solve meaningful problems, and continue growing as a developer.
+      </p>
     </section>
   );
 };
