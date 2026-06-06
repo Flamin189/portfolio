@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react';
 import './Skills.css';
 
 const technicalSkills = [
-  { name: 'Python', level: 85 },
-  { name: 'Java', level: 80 },
-  { name: 'JavaScript', level: 80 },
-  { name: 'MySQL', level: 85 },
-  { name: 'HTML', level: 85 },
-  { name: 'CSS', level: 80 },
+  { name: 'Python', level: 100 },
+  { name: 'Java', level: 100 },
+  { name: 'JavaScript', level: 90 },
+  { name: 'MySQL', level: 100 },
+  { name: 'HTML', level: 95 },
+  { name: 'CSS', level: 90 },
   { name: 'React.js', level: 80 },
   { name: 'Spring Boot', level: 80 },
 ];
